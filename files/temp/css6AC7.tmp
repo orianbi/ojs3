@@ -1,0 +1,301 @@
+/* 
+Copyright sanguilmu.com 
+
+Design by: Thoha Firdaus
+
+
+*/
+
+
+/* Struktur Sidebar */
+.kepala {
+	color: #ffffff; 
+	background: #041355; 
+	padding: 10px; 
+	font-family: arial; 
+	line-height: 23px;
+	border-bottom: 4px solid #fcda65;
+	font-weight: bold;
+	text-align: center;
+}
+
+.badan a {
+	display: block; 
+	padding: 10px; 
+	border-bottom: 1px solid #ffffff; 
+	background: #e7f3ed; 
+	color: black !important;
+	text-align: center;
+}
+
+.badan {
+	margin-top: -15px;
+}
+
+
+.badan a:hover {
+	background: #fcda65;
+	color: black !important;
+	font-weight: bold;
+}
+
+
+/* Table of content */
+
+.obj_article_summary {
+	box-shadow: 3px 3px 5px;
+	padding: 20px;
+	border-radius: 10px;
+	background: #d3e9de8a;
+}
+
+.obj_article_summary:hover {
+	background:#fbda65
+}
+
+
+.obj_article_summary {
+    padding-bottom: 10px !important;
+    border-bottom: solid 4px #041355 !important;
+    font-size: 12px;
+}
+
+
+ .pkp_structure_main h1 {
+     font-weight: 600;
+     font-size: 20px;
+}
+
+.pkp_structure_main a {
+    color: #041355 !important;
+}
+
+.pkp_structure_main a:hover {
+	color: #3da0e3 !important;
+}
+
+
+.obj_galley_link {
+    font-weight: 700;
+    text-transform: Capitalize !important;
+    background: #6a997036 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.obj_galley_link:hover {
+	background:#6a99704594 !important;
+	color:#1F2027 !important;
+}
+
+
+/* Footer */
+.pkp_structure_footer_wrapper {
+	background: #e7f3ed !important;
+	border-bottom: 20px solid #041355;
+}
+
+.pkp_footer_content {
+	float: left;
+	width: 70%;  padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.pkp_brand_footer {
+	float: right;
+	width: 20%;
+	padding-bottom:10px;
+	padding-top: 50px;
+}
+
+
+/*Body and Abstrack*/
+.main_entry .item.abstract {
+	text-align: justify;
+}
+
+body {
+	font-family: tahoma,geneva,sans-serif !important;
+}
+
+
+/* Struktur Header */
+	.pkp_site_name_wrapper {
+width: 100% !important;
+}
+
+.pkp_navigation_primary_row {
+	text-align: center;
+	background: #041355;
+	font-weight: bold;
+
+}
+
+
+.pkp_site_name {
+	margin: 0 !important;
+}
+
+.pkp_site_name > a {
+	padding-top: 0 !important; 
+	padding-bottom: 0 !important;
+}
+
+.pkp_site_name_wrapper {
+	padding-left: 0 !important; 
+	padding-right: 0 !important; 
+	margin: 0 !important;
+}
+
+/* Ukuran Header */
+
+.pkp_site_name .is_img img {
+	max-height: 100% !important; 
+	max-width: 100% !important; 
+}
+
+/* Settingan Header */
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a {
+	margin: 0 !important; 
+	padding: 0 15px !important; 
+	line-height: 40px !important; 
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li, .pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a {
+	font-family:tahoma,geneva,sans-serif; 
+	color: #ffffff !important; 
+	font-weight: bold !important
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a:hover {
+	background: #fbda65; 
+	border-radius:20px; !important; 
+	color: #1F2027 !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul, .pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li a:hover {
+	border-radius: 0 !important; 
+	-webkit-border-radius: 0 !important; 
+	-o-border-radius: 0 !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul { 
+	background: #041355 !important
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li { 
+	border-bottom: solid 1px rgb(0 0 0) !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li:last-child { 
+	border-bottom: none !important;
+}
+
+
+
+
+
+.pkp_structure_head {
+background:url(/public/site/images/adminbima/bg-bima2.png);
+}
+
+.pkp_site_nav_toggle{
+background-color: #041355;
+}
+
+
+.pkp_search.pkp_search_desktop {
+	color: #ffffffee;
+}
+
+.pkp_search.pkp_search_desktop:hover {
+	color: #ececec;
+}
+
+
+
+
+.homepage_image {
+    display:inline-block;
+    width:28%;
+    margin-left:0px;
+    float:right;
+}
+
+.homepage_image img {
+    margin:60px 0px 0px -20px;
+    box-shadow:4px 2px 5px gray;
+    width:300px;
+
+ }
+
+.homepage_about {
+    display:inline-block;
+    width:70%;
+    text-align:justify;
+}
+
+
+.current_issue{
+	display:block;
+}
+
+
+.search_controls {
+    background:#2596be;
+}
+
+
+@media (max-width: 600px) {
+/* For mobile phones: */
+  .homepage_about {
+  	width:100%;
+  }
+}
+
+
+@media (max-width: 991px) {
+    .homepage_about{
+    	margin-top:30px;
+    }
+
+
+}
+
+
+@media (max-width: 360px) {
+/* For mobile phones: */
+    .homepage_image {
+    	width:90%;
+    	margin:0;
+    }
+
+        .homepage_about{
+    	margin-top:0px;
+    }
+}
+
+.obj_article_details .page_title {
+background: #f2f5ea;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+}
+
+
+
+.description {
+	text-align:justify;
+}
+
+
+
+.conten {
+	border: black 1px;
+}
